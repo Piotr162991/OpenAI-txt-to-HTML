@@ -9,7 +9,7 @@ Dodatkowo w repozytorium znajduje się przykładowy szablon postu na bloga **blo
 2. Pakiet OpenAI dla Pythona: Skrypt używa SDK OpenAI do komunikacji z API.
 3. Pakiet Dotenv: Wymagany do bezpiecznego zarządzania kluczem API.
 
-Możesz zainstalować niezbędne zależności, korzystając z poniższych komend:
+Możesz zainstalować niezbędne pakiety, korzystając z poniższych komend:
 
 ```
 pip install openai

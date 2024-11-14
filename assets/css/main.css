@@ -1,0 +1,171 @@
+/* Globalne ustawienia dla ciała strony */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylizacja kontenera głównego artykułu */
+div {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówek */
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sekcje */
+section {
+    margin-bottom: 30px;
+}
+
+/* Akapit */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Wyróżnienia */
+strong {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+em {
+    font-style: italic;
+    color: #8e44ad;
+}
+
+mark {
+    background-color: #d1e7fd;  
+    color: #2c3e50;  
+    padding: 0.2em;
+}
+
+/* Abbr - podkreślenie skrótów */
+abbr[title] {
+    text-decoration: underline dotted;
+    cursor: help;
+}
+
+/* Blok cytatu */
+blockquote {
+    font-style: italic;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-left: 5px solid #8e44ad;
+    margin: 20px 0;
+}
+
+/* Obrazy */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    
+    
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+
+/* Linie poziome */
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+/* Nagłówki 2 poziomu */
+h2 {
+    font-size: 2rem;
+    color: #34495e;
+    margin-top: 40px;
+}
+
+/* Lista */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+/* Dodatkowa sekcja / asides */
+aside {
+    background-color: #f9f9f9;
+    border-left: 4px solid #3498db;
+    padding: 10px 20px;
+    font-style: italic;
+    color: #2c3e50;
+}
+
+/* Stylizacja dla wszystkich linków */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*Button scroll to top*/
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none; /* Na początku przycisk jest niewidoczny */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #2980b9;
+    transform: scale(1);
+}
+
+nav a.active {
+    color: #3498db;  /* Zmiana koloru linku aktywnej sekcji */
+    font-weight: bold;
+}
+
+.fadeIn{
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

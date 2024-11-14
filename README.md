@@ -32,7 +32,7 @@ Aby uruchomić skrypt, wpisz poniższe polecenie:
 ```
 python main.py
 ```
-Upewnij się, że tresc.txt zawiera poprawny tekst promptu przed uruchomieniem skryptu. Po wykonaniu skryptu sprawdź plik artykul.html w katalogu projektu, aby zobaczyć wygenerowany kod HTML.
+Upewnij się, że tresc.txt zawiera poprawny tekst promptu przed uruchomieniem skryptu. Po wykonaniu skryptu sprawdź plik **artykul.html** w katalogu projektu, aby zobaczyć wygenerowany kod HTML.
 
 ## Notatki
 Skrypt jest skonfigurowany z temperaturą 0.7, co zapewnia zbalansowany poziom kreatywności.
